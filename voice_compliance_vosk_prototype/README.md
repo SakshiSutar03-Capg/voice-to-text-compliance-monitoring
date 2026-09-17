@@ -24,6 +24,11 @@ Vosk expects a mono, uncompressed, 16-bit PCM WAV in this prototype. If a model 
 4. Download the evidence JSON.
 5. Open the Future architecture tab to explain the scalable version.
 
+## Architecture View
+
+<img width="4032" height="1769" alt="image" src="https://github.com/user-attachments/assets/5f471f8d-f338-4bb8-a374-9b2328e79d45" />
+
+
 ## Samples
 
 The included WAVs are synthetic tone carriers, not recordings of real customers. Sample selection uses the named local transcripts embedded in the prototype to ensure repeatable demos.
