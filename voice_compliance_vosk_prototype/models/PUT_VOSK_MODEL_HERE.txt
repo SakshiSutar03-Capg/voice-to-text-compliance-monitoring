@@ -1,0 +1,4 @@
+Place an extracted English Vosk model folder here.
+Example folder name: vosk-model-small-en-us-0.15
+The prototype auto-detects the first folder containing am and conf subfolders.
+No cloud API is used. If no model is present, the app stays fully demonstrable in Simulation Mode.

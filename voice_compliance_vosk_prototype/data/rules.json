@@ -1,0 +1,57 @@
+[
+  {
+    "id": "R-001",
+    "label": "Identity verification missing",
+    "severity": "High",
+    "keywords": [
+      "without verification",
+      "skip verification",
+      "no need to verify"
+    ],
+    "category": "KYC"
+  },
+  {
+    "id": "R-002",
+    "label": "Sensitive data spoken",
+    "severity": "Critical",
+    "keywords": [
+      "pin number",
+      "one time password",
+      "otp",
+      "cvv"
+    ],
+    "category": "Data Privacy"
+  },
+  {
+    "id": "R-003",
+    "label": "Unapproved guarantee",
+    "severity": "High",
+    "keywords": [
+      "guaranteed return",
+      "risk free return",
+      "cannot lose money"
+    ],
+    "category": "Mis-selling"
+  },
+  {
+    "id": "R-004",
+    "label": "Mandatory disclosure missing",
+    "severity": "Medium",
+    "keywords": [
+      "terms and conditions"
+    ],
+    "category": "Disclosure",
+    "mode": "required"
+  },
+  {
+    "id": "R-005",
+    "label": "Aggressive collection language",
+    "severity": "High",
+    "keywords": [
+      "legal action today",
+      "pay immediately",
+      "contact your employer"
+    ],
+    "category": "Collections"
+  }
+]
