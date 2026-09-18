@@ -18,8 +18,11 @@ Upload a WAV and choose Simulation for a guaranteed, dependency-free demonstrati
 Add an analyzed call to the local review queue.
 Download the evidence JSON.
 Open the Future architecture tab to explain the scalable version.
+
 ## Architecture View
-image
+
+<img width="4032" height="1769" alt="image" src="https://github.com/user-attachments/assets/ba94a5f7-f14d-43c7-a010-866aff53afc5" />
+
 ## Samples
 The included WAVs are synthetic tone carriers, not recordings of real customers. Sample selection uses the named local transcripts embedded in the prototype to ensure repeatable demos.
 
@@ -28,7 +31,8 @@ This is a proof of concept, not a legal determination or production compliance c
 Rules are illustrative and must be approved by legal/compliance teams.
 Vosk accuracy depends on the selected model, language, channel quality and audio format.
 Production design should add consent, retention, encryption, RBAC, auditability, PII redaction, human review, monitoring and secure integration.
-Project structure
+
+## Project structure
 app.py: interactive UI and user journey
 audio_utils.py: local Vosk transcription
 compliance_engine.py: rule engine and score
